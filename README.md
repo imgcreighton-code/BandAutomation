@@ -37,5 +37,18 @@ I want to sort these files into folders for each musician, to make it convenient
 
 <img width="284" height="294" alt="Capture d’écran 2026-08-20 à 12 59 10" src="https://github.com/user-attachments/assets/e69814bb-46e9-49bc-826b-cd48315c3fe0" />
 
-We do this by identifying keyword expressions that will uniquely identify every piece while allowing for variations in the original naming conventions. The dictionary of keywords is found in **"keywords.JSON"**. Similarly, we identify keywords for each musician where necessary (e.g. "piano" and "key" both represent "keys"). Finally, move and rename each piece into the appropriate folder, with a naming convention optimal for **""setlists_example.py""**
+We do this by identifying keyword expressions that will uniquely identify every piece while allowing for variations in the original naming conventions. The dictionary of keywords is found in **"keywords.JSON"**. Similarly, we identify keywords for each musician where necessary (e.g. "piano" and "key" both represent "keys"). Finally, move and rename each piece into the appropriate folder, with a naming convention optimal for **"setlists_example.py"**  
+
+<img width="1284" height="894" alt="Capture d’écran 2026-08-20 à 13 29 43" src="https://github.com/user-attachments/assets/59dceef8-0ba8-4314-ae3c-a49dae7eec9f" />  
+
+
+### **Setlist Booklet Compiler ("setlists_example.py")**
+
+Allows me to select which pieces we are playing, and which instruments need charts compiled, and then merges all the relevant files into a single document (to speed up the time taken between songs trying to find the next chart).
+
+### **Automated PDF Invoicing ("invoices_example.py")**
+
+Makes a PDF invoice displaying the band's logo, itemised costs and automatically sums the total. The margins, measurements, font size etc. can be manually changed to maximise aesthetics. The end result looks something like this:
+
+<img width="595" height="841" alt="Band Invoices Wedding 01-08-2026" src="https://github.com/user-attachments/assets/e26d0372-8632-472c-a81c-83364cdaab08" />
 
