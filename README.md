@@ -14,12 +14,12 @@ This project consists of:
 *  **Setlist Booklet Compiler ("setlists_example.py"):** Reads active setlists and automatically merges individual PDF charts into consolidated gig booklets for specific instruments using `PyPDF2`.  
 *  **Automated PDF Invoicing ("invoices_example.py"):** Calculates totals, itemized deductions, deposit adjustments, and travel costs to render branded PDF invoices using `ReportLab`.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Python 3**
 * **PyPDF2**
 * **ReportLab**
 
-## 📥 Setup & Usage
+## Setup & Usage
 
 1. Clone this repository to your local machine.
 2. Install required packages:
