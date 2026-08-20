@@ -25,7 +25,16 @@ This project consists of:
 ## Programs Walkthrough
 
 ### **PDF Sheet Music Auto-Sorter ("organiser_example.py")**
+Our music is stored on a Google drive in folders according to the different pieces. When I download this directory it looks like this:  
 
-<p align="center">
-Launch the utility: <br/>
-<img src="[https://i.imgur.com/62TgaWL.png](https://i.postimg.cc/9Dtqq2jT/Capture-d-ecran-2026-08-20-a-12-58-06.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1271" height="899" alt="Capture d’écran 2026-08-20 à 12 58 06" src="https://github.com/user-attachments/assets/54635e7f-7352-499b-ad12-675c3684895c" />  
+
+and within each folder, the individual PDF files are named according to the instrument, like this:  
+
+<img width="251" height="271" alt="Capture d’écran 2026-08-20 à 12 58 21" src="https://github.com/user-attachments/assets/6204035e-8dcd-472b-8091-6ec80f523d2a" />  
+
+I want to sort these files into folders for each musician, to make it convenient for practice and rehearsals. These are the individual musician folders:  
+
+<img width="284" height="294" alt="Capture d’écran 2026-08-20 à 12 59 10" src="https://github.com/user-attachments/assets/e69814bb-46e9-49bc-826b-cd48315c3fe0" />
+
+
