@@ -1,50 +1,27 @@
 # Band Automation
 
+
+
+# Gig Management & Music Automation Toolkit
+
+A Python automation tool built to manage sheet music libraries, dynamically generate instrument setlist charts, and compile itemised PDF invoices for live performance events.
+
 ## Description
-This project consists of: 
 
-1\) a sorter, which sorts PDF files (sheet music) according to name and instrument - "sheets_sorter.py"  
-2\) a merger, which merges the relevant pieces for the gig into one PDF file for each instrument - "pdf_merger.py"  
-3\) an invoice maker, which creates a PDF invoice that can be sent to clients - "invoice-maker"
-<br />
+This project consists of:  
 
-<h2>Program walk-through:</h2>
+* **PDF Sheet Music Auto-Sorter ("organiser_example.py"):** Scans unsorted folder structures, parses filenames against target song keywords and instrument patterns, and routes charts into categorized database folders.
+*  **Setlist Booklet Compiler ("setlists_example.py"):** Reads active setlists and automatically merges individual PDF charts into consolidated gig booklets for specific instruments using `PyPDF2`.  
+*  **Automated PDF Invoicing ("invoices_example.py"):** Calculates totals, itemized deductions, deposit adjustments, and travel costs to render branded PDF invoices using `ReportLab`.
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+## 🛠️ Tech Stack
+* **Python 3**
+* **PyPDF2**
+* **ReportLab**
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+## 📥 Setup & Usage
+
+1. Clone this repository to your local machine.
+2. Install required packages:
+   ```bash
+   pip install PyPDF2 reportlab
