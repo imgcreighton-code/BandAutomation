@@ -15,13 +15,6 @@ This project consists of:
 * **PyPDF2**
 * **ReportLab**
 
-## Setup & Usage
-
-1. Clone this repository to your local machine.
-2. Install required packages:
-   ```bash
-   pip install PyPDF2 reportlab
-
 ## Programs Walkthrough
 
 ### **PDF Sheet Music Auto-Sorter ("organiser_example.py")**
