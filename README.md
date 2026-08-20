@@ -37,4 +37,5 @@ I want to sort these files into folders for each musician, to make it convenient
 
 <img width="284" height="294" alt="Capture d’écran 2026-08-20 à 12 59 10" src="https://github.com/user-attachments/assets/e69814bb-46e9-49bc-826b-cd48315c3fe0" />
 
+We do this by identifying keyword expressions that will uniquely identify every piece while allowing for variations in the original naming conventions. The dictionary of keywords is found in **"keywords.JSON"**. Similarly, we identify keywords for each musician where necessary (e.g. "piano" and "key" both represent "keys"). Finally, move and rename each piece into the appropriate folder, with a naming convention optimal for **""setlists_example.py""**
 
