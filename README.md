@@ -1,7 +1,3 @@
-# Band Automation
-
-
-
 # Gig Management & Music Automation Toolkit
 
 A Python automation tool built to manage sheet music libraries, dynamically generate instrument setlist charts, and compile itemised PDF invoices for live performance events.
