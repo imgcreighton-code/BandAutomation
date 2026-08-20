@@ -21,3 +21,11 @@ This project consists of:
 2. Install required packages:
    ```bash
    pip install PyPDF2 reportlab
+
+## Programs Walkthrough
+
+### **PDF Sheet Music Auto-Sorter ("organiser_example.py")**
+
+<p align="center">
+Launch the utility: <br/>
+<img src="[https://i.imgur.com/62TgaWL.png](https://i.postimg.cc/9Dtqq2jT/Capture-d-ecran-2026-08-20-a-12-58-06.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
